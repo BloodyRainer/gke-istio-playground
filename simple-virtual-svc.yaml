@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: simple-virtualservice
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - simple-gateway
+  # gateways:
+  #   - simple-nginx-ing
+  http:
+  - match:
+    - uri:
+        prefix: /health
+    - uri:
+        prefix: /hostname
+    route:
+    - destination:
+        host: simple-svc
+        port:
+          number: 80

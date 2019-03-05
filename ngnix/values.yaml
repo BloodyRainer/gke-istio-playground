@@ -1,0 +1,13 @@
+# this yaml modifies the original values.yaml, see https://github.com/helm/charts/blob/master/stable/nginx-ingress/values.yaml
+rbac:
+  create: true
+
+controller:
+  service:
+    # The ip address below is the static orbidder ip (has to be regional for ngnix-ingress).
+    # Currently, the ip address is of type standard tier (therefore the projects network service tier 
+    # has to be standard also; to access search for 'network tier' in the gcp console or use 
+    # 'gcloud beta compute project-info update --default-network-tier [NETWORK_TIER]', standard or premium)
+    loadBalancerIP: "35.207.178.127"  
+  replicaCount: 3
+  minAvailable: 3
