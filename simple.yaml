@@ -36,7 +36,7 @@ spec:
       containers:
       - name: simple
         image: ravo444/simple
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
           name: http

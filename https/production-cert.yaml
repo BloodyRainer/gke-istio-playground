@@ -1,0 +1,17 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: istio-gateway-production
+  namespace: istio-system
+spec:
+  secretname: istio-ingressgateway-certs
+  issuerRef:
+    name: letsencrypt-production-issuer
+  commonName: "istio.orbidder.otto.de"
+  acme:
+    config:
+    - dns01:
+        provider: cloud-dns
+      domains:
+      - "*.istio.orbidder.otto.de"
+      - "istio.orbidder.otto.de"

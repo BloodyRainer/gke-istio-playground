@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: simple-virtualservice
+spec:
+  hosts:
+  - "istio.orbidder.otto.de"
+  gateways:
+  - public-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /
+    - uri:
+        prefix: /health
+    - uri:
+        prefix: /hostname
+    route:
+    - destination:
+        host: simple-svc.default.svc.cluster.local
+        port:
+          number: 80

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "brain-orbidder-dev",
+  "private_key_id": "fdddf872443975bebc198cc98fb3f2c50512c24f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCp9jNGV14G38Xd\nqfHRYFmv/ug3jKKezutV3wWGB9PNm3t6VwP1BIK2PBdfkUoDQM0LxndvXOz2wHSp\n7j8G9qhep34xyLMsHSMbFZjC0sDZD7c2z0ArVNA6kline1+O5fuYzajUpvodIr8c\nJkaWp7gBYPfDDEfxKsZSVFlcYFTxdZwM2F/bQ7pDncrpRhpvnxr53gH6Eo2SK4vD\nhnrRwxl4pqhHWZLoes4nrnMuSbM5gWK7BPuVW9SLx33PyJ7Pou39HU5ZoQt3OKRj\nc1RLToaz4Q1gKg3xCsVxMsKb4TtDEIh/7qzmJC/Ni4+qi0ngSNO+4G+mIqYXpYAu\n1kElvDcRAgMBAAECggEADoxttDChv4qwWC3TB/5GGLVQ8TXyuUK/s1CNaDBlIxb5\nmWEEcv9JWLCvh+jOAi96vdTMMw/fYUaoVd/eeX0FfMcim4yK0pTF65+yiihaa9ow\n1gC+OFdT7oeWp8BJ6QrRU0tB3Fe7IvsiV8lqkzyh5bOEUdsykOrKVV01O9D4Xgv0\nfb6DSdvL+KYeUPTY8N3DcyqBPVz8ig+uTfCHjqGxKqlakLCl6jiznUDxCfVr2xHH\n+kbMzWqAcei1Paa3CVaw+YSkjvnucc6rlg51W/1PZiGGG2Mtsm9v1xVRU3s1MAs3\nNOFYj74rlK7FdtKZJF2ClpPSKe8spKKKwwe9Fm1jnwKBgQDhhNDnmKGR2VZ3rr7V\nm3RqURJ62qowWyQYMMnpQ0zdWW6ZVKquPW19piqj/LptzkKacUWhQjv9TPV6Mrez\nnGScqIIbLVkDqk/fr/BaT7HgHSJ1HLyishx5kr/ywL5SeHFEWYbxXeZ/kSaJKJ7m\n/03jpybheJOEOtSng20D+Dj41wKBgQDA7w0q/FJjko4owQanvARqmxkPHxZIZ2LZ\nF+YDX4Cr3M61GRQlFgHfXAK4qOJdYIKyXPEmMS+8nPXItickk9I2CDN69oCrgl22\nw3Q3xezktmryVsyvMr2VZurv+2usbfet1UVT1I/OFkZFUoxcbYsGB4GXzwb/xhme\nUbMv+2rKVwKBgQC8hSuhPt1pr9ZxjBmpNR+3NHiPTLXSYI4mzrorDgB2VSl4ceeQ\nandZ/wtMNJuf6TmSI7iCWn0NfUUD1tvsAIO21cKVd24e+0N0CX6R8GcQoypH3jLu\nipf1JTDifC9df6On8HM22Dk0UKF3LQbQsYFqGjQNbZ9bfVaBhgMeu2Tc1wKBgFiY\nrfRSYEcnUq62TScTePe3d19xSBtBlqvYhKCB56WERUv2U0DghUWbjAheTWzR19Ku\nSXLfXWuArIFZ3Em4s+xqAbHypo2b1QsLYEAIXMt+VUgpwd6mL1b/Jt3DF+Pbr8Qc\nzrQ7RTo/Ek/dI2WCTDgdlE4xHKaxwqvoGp/rFVQLAoGAP/bEIHnYbaO/zjnxDec4\n9cem2xvt+iG4vDAJSUyK3lIENQYd0nMcX8jgvKgXqsNVtAJhydyOXLlaXG2yIevF\nFy3+ZouXqCkL6gMf2XYR+bMRufC37DqQFSQ3b4nmVTns6pOa/IWbO2OnXufNp5ZN\nOokWghvwFqDAxhgO1s+YhSY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dns-admin@brain-orbidder-dev.iam.gserviceaccount.com",
+  "client_id": "113529104812922543799",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dns-admin%40brain-orbidder-dev.iam.gserviceaccount.com"
+}
